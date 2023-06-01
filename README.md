@@ -33,7 +33,7 @@ The example uses the rpi_ws281x python library for raspberry pi.
 https://github.com/jgarff/rpi_ws281x
 
 Install the rpi_ws281x library using pip command on the raspberry pi.
-> pip3 install rpi-ws281x
+> sudo pip3 install rpi-ws281x
 
 run the app example:
 > sudo python3 lights.py
