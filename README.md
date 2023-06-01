@@ -61,9 +61,10 @@ OR
 
 If you are running the Full (desktop) version of raspbian, you will need to disable onboard audio support to allow the lights to use PWM channel + DMA.
 * see the rpi_ws281x repo for more information
-* 
+
 You will know this is an issue, because only the first LED will blink green when you run the test script.
 
+Lights Fix:
 - Disable audio using the following command;
 > sudo echo "blacklist snd_bcm2835" >  /etc/modprobe.d/snd-blacklist.conf
 
