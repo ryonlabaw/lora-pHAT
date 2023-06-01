@@ -36,7 +36,8 @@ Install the rpi_ws281x library using pip command on the raspberry pi.
 > pip3 install rpi-ws281x
 
 run the app example:
-> python3 lights.py
+> sudo python3 lights.py
+* note: sudo is required because lights use DMA and need access to /dev/mem
 
 # using with the Raspberry Pi
 See the python example code.
